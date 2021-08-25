@@ -1,0 +1,137 @@
+
+/* Font styling for entire page */
+html,
+input::placeholder,
+option,
+button {
+     font-family: 'Rubik', sans-serif;
+}
+
+/*Full Page Styling*/
+.survey {
+    display: flex;
+    background-color: lightblue;
+    flex-direction: column;
+    justify-content: center;
+    aspect-ratio: auto;
+}
+
+/* Survey Title Styling */
+#heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+/* Form Styling*/
+.form {
+    display: flex;
+    background-color: rgb(14, 46, 150);
+    color: white;
+    font-size: 130%;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+    padding: 1em;
+    max-width: 40em;
+    min-width: 0;
+    min-height: 0;
+    max-height: 64em;
+    border-radius: 5px;
+}
+
+/* Input Box styling */
+input[type=text],
+input[type=number],
+textarea {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 98%;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+    border-style: solid;
+}
+
+/* Radio/Checkbox resizing */
+input[type=radio],
+input[type=checkbox] {
+    border: 0px;
+    width: 5%;
+    height: 16px;
+}
+
+/*Added style when items are focused*/
+input[type=text]:focus,
+input[type=number]:focus,
+textarea:focus,
+select:focus {
+    border: 3px solid rgba(26, 26, 177, 0.527);
+}
+
+/* Drop down menu styling */
+select {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* spacing between labels */
+label {
+    padding: 5px;   
+}
+
+/* Aligning labels/spans*/
+#mini {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+/* customizing spans into mini text */
+span {
+    display: flex;
+    font-size: 75%;
+    align-self: center;
+} 
+
+/* Aligning form to start from left side*/
+.form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1em;
+    margin-top: -10px;
+}
+
+/* Styling of Select Elements */
+#improved,
+#recommend {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.submit {
+    display: inline-flex;
+    align-items: end;
+}
+
+button {
+    width: 6em;
+    height: 3em;
+    border-radius: 5px;
+    border: transparent;
+    outline: none;
+    box-shadow: none;
+    border-style: solid;
+}
+
+button:hover {
+    background-color: rgb(21, 113, 250);
+    border: 3px solid rgba(161, 161, 161, 0.527);
+
+}
