@@ -115,9 +115,10 @@ span {
     justify-content: flex-start;
 }
 
-.submit {
+#submit {
     display: inline-flex;
-    align-items: end;
+    flex-direction: row;
+    justify-self: flex-end;
 }
 
 button {
